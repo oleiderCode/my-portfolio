@@ -1,0 +1,73 @@
+/* Card Container */
+.project-card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: #1e1e2f;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  color: white;
+  font-family: 'Arial', sans-serif;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+}
+
+/* Image Section */
+.project-image img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+/* Content Section */
+.project-content {
+  padding: 15px;
+}
+
+.project-content h3 {
+  font-size: 18px;
+  margin: 0 0 10px;
+  color: #fff;
+}
+
+.project-content p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #cccccc;
+  margin: 5px 0;
+}
+
+.project-content .tech-stack {
+  margin: 10px 0;
+  font-size: 14px;
+  color: #aaaaaa;
+}
+
+/* Links Section */
+.project-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.project-links a {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  text-decoration: none;
+  color: #13b0f5;
+  transition: color 0.3s ease;
+}
+
+.project-links a:hover {
+  color: #e70faa;
+}
+
+.project-links span {
+  margin-right: 5px;
+  font-size: 16px;
+}

@@ -1,0 +1,54 @@
+.tech-stack{
+  margin-top: 150px;
+  padding-top: 100px;
+
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+h3{
+  font-size: 48px;
+  font-family: "Poppins", sans-serif;
+  color: var(--Solid-Heading-Dark-mode);
+  letter-spacing: 2.4px;
+}
+
+.intro{
+  margin-top: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  color: var(--light-Content);
+}
+
+.tech-list{
+  margin-top: 50px;
+  width: 100%;
+}
+
+.tech-list ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li{
+  flex: 1 1 25%; /* Hace que cada item ocupe el 25% del contenedor */
+  box-sizing: border-box; /* Evita que el padding/borers afecten el tamaño */
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 90px;
+}
+
+li img{
+  transition: all 0.4s ease;
+  width: 90px;
+}
+
+li:hover img{
+  transform: scale(1.4, 1.4);
+
+}

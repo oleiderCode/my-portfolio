@@ -1,0 +1,21 @@
+section >h3, section> p{
+  font-size: 48px;
+  font-family: 'Poppins';
+  color: var(--Solid-Heading-Dark-mode);
+  text-align: center;
+}
+
+section> p{
+  font-size: 32px;
+  color: var(--light-Content);
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  margin-bottom: 100px;
+}

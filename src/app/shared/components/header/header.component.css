@@ -1,0 +1,35 @@
+header{
+  height: 60px;
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 60%;
+}
+
+nav ul{
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li{
+  list-style: none;
+}
+
+li:nth-child(6) {
+  display: flex;
+  gap: 16px;
+}
+
+
+a{
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 20px;
+  color: var(--light-Content);
+}
+
+#logo{
+  height: 59px;
+  width: 50px;
+}

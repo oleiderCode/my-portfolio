@@ -7,14 +7,14 @@
 
 ul li, li a{
   margin-left: 20px;
+  list-style: none;
 }
 
 .copy-email {
   display: inline-block;
-  position: relative;
+  position: relative ;
   font-size: 16px;
   font-family: "Poppins", sans-serif;
-
   font-weight: bold;
   color: #13b0f5;
   cursor: pointer;

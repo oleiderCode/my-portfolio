@@ -9,7 +9,7 @@
         <p class="copy-email" (click)="copyToClipboard()">
           <span *ngIf="!copied">Copy Email</span>
           <span *ngIf="copied" class="copied-message">Copied!</span>
-          <span ngClass="{'underline': !copied, 'underline-green': copied}"></span>
+          <span [ngClass]="{'underline': !copied, 'underline-green': copied}"></span>
         </p>
 
       </li>
